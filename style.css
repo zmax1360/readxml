@@ -1,0 +1,48 @@
+.crp-scenario {
+    display: flex;
+    border: 1px solid #ccc;
+    height: 600px;
+}
+
+.left-panel {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.key-section {
+    margin-bottom: 20px; /* Increase the margin to create more space */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.key-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.key-item.selected {
+    background-color: #ccc;
+}
+
+.swap-curve-details {
+    flex: 2;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* SwapCurveDetails.css */
+.swap-curve-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.future-chain-data,
+.money-market-quotes,
+.quotes {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
